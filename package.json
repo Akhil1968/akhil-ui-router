@@ -1,0 +1,19 @@
+{
+  "name": "nodeangular",
+  "version": "1.0.0",
+  "description": "Node+Angular code demonstrating ui-router",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "AngularJS",
+    "NodeJS",
+    "express"
+  ],
+  "author": "Akhil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
