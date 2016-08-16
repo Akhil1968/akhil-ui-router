@@ -1,0 +1,12 @@
+<table
+  <thead>
+    <tr><th colspan="2">Browsers Usage Percentage</th></tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="obj in data">
+      <td ng-bind="data[$index].name"></td>
+      <td><input ng-model="data[$index].percent" type="number" min="1" 
+      placeholder="Percent" /></td>
+    </tr>
+  </tbody>
+</table>

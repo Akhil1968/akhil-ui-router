@@ -16,7 +16,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         })
         .state('home.paragraph', {
             url: '/paragraph', //this can be commented
-            template: 'I could sure use a drink right now.'
+            template: 'UI-Router applications are modeled as a hierarchical tree of states.'
         })
 
         .state('about', {
