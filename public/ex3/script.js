@@ -7,7 +7,7 @@ angular.module('panesApp', [
     $urlRouterProvider.otherwise('/');
     $stateProvider
       .state('parent', {
-        abstract: true,
+        abstract: true, //https://github.com/angular-ui/ui-router/wiki/Nested-States-and-Nested-Views
         template: '<div class="row">\
           <div class="large-4 small-4 columns" ui-view="data"></div>\
           <div class="large-8 small-8 columns" ui-view="d3"></div>\
